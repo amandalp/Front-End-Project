@@ -1,0 +1,46 @@
+#wrapper {
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+h1, h2, h3, p {
+	font-family: Ubuntu, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 26px;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+p {
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 14px;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+strong {
+	font-weight: 500;
+}
+
+.special {
+	height: 40;
+	width: 40;
+}
+
+.condensed {
+	letter-spacing: -20;
+}
