@@ -3,6 +3,8 @@
 	max-width: 1020px;
 }
 
+/*Typography*/ 
+
 h1, h2, h3, p {
 	font-family: Ubuntu, sans-serif;
 	text-align: center;
@@ -43,4 +45,31 @@ strong {
 
 .condensed {
 	letter-spacing: -20;
+}
+
+/*Rows: Images & Text*/
+
+.image-row {
+	text-align: center;
+}
+
+.image-box {
+	margin: 10px 40px;
+}
+
+.image-box2 {
+	margin: 10px 75px;
+}
+
+.text-row {
+	text-align: center;
+}
+
+.text-box {
+	display: inline-block;
+	margin: 30px;
+}
+
+.imageBox {
+	display: inline-block;
 }
