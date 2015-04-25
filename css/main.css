@@ -5,7 +5,7 @@
 
 /*Typography*/ 
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
 	font-family: Ubuntu, sans-serif;
 	text-align: center;
 }
@@ -31,6 +31,11 @@ h3 {
 h4 {
 	font-size: 12px;
 	font-weight: 300;
+}
+
+h5 {
+	font-size: 15px;
+	font-weight: 200;
 }
 
 p {
@@ -122,6 +127,16 @@ strong {
 	background-position: center;
 }
 
+.banner1-toggle {
+	background: url("../assets/bwimage3.png");
+	height: 250px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
 .banner2 {
 	background: url("../assets/bwimage2.png");
 	height: 400px;
@@ -129,8 +144,7 @@ strong {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
-	padding-top: 30px;
-	margin-top: 10px;
+	padding-top: 40px;
 }
 
 .blue-text {
@@ -139,13 +153,13 @@ strong {
 	margin-bottom: -20px;
 }
 
-.grayscale {
+/*.grayscale {
 	-moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 	-o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 	-webkit-filter: grayscale(100%);
 	filter: gray;
 	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-}
+}*/
 
 .banner-text {
 	padding-top: 15px;
@@ -153,18 +167,18 @@ strong {
 	color: white;
 }
 
+.banner-text .no-display {
+	display: none;
+}
+
 .border-box {
 	border: 2px solid white;
-	width: 240px;
+	width: 260px;
 	border-radius: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 40px;
-}
-
-.border-box h3 {
-	font-size: 16px;
-	padding: -10px 20px 0px 20px;
+	padding: 10px 25px 10px 25px;
 }
 
 .banner-content {
@@ -174,7 +188,6 @@ strong {
 
 .btn-group-wrap {
 	text-align: center;
-	margin-top: 20px;
 }
 
 .btn {
@@ -190,7 +203,7 @@ strong {
 	border-radius: 5px;
 }
 
-.green {
+.time, .money {
 	opacity; 0;
 }
 
@@ -221,17 +234,12 @@ strong {
 		background: url("../assets/bwimage.png") center;
 	}
 
+	.banner1-toggle {
+		background: url("../assets/bwimage3.png") center;
+	}
+
 	.banner-text h1, .banner-content h1 {
 		font-size: 18px;
-	}
-
-	.banner-content .image-box3 {
-		margin-top: -10px;
-	}
-
-	.btn-group-wrap {
-		margin-top: 30px;
-		margin-bottom: 30px;
 	}
 
 	.banner-text h3 {
@@ -240,12 +248,35 @@ strong {
 		margin-right: 50px;
 	}
 
+/*	.banner-text .no-display*/
+
+	.banner-content h3 {
+		font-size: 14px;
+	}
+
+	.image-box3 {
+		max-height: 60px;
+		margin-top: -25px;
+	}
+
+	.btn-group-wrap {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+/*	.text-box h3 {
+		padding-top: -5px;
+		padding-bottom: -5px;
+	}*/
+
 	.blue-text {
 		margin-top: 30px;
 	}
 
 	.banner2 {
-		background: url("../assets/bwimage2.png") center;
+		background: url("../assets/bwimage2.png");
+		min-height: 650px;
+		padding-bottom: 20px;
 	}
 
 
