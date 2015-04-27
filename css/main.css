@@ -145,9 +145,7 @@ section {
 
 .banner1-toggle {
 	background: url("../assets/bwimage3.png");
-	height: 250px;
-	margin-bottom: 40px;
-	margin-top: 10px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
@@ -207,6 +205,10 @@ button {
 		background-size: cover;
 	}
 
+	.banner1-toggle {
+		background-size: cover;
+	}
+
 	.bcg-2 {
 		background-size: cover;
 	}
@@ -231,7 +233,7 @@ button {
 	}
 
 	.banner1-toggle {
-		background: url("../assets/bwimage3.png") center;
+		background-size: cover;
 	}
 
 	.banner-content-1 {
