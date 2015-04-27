@@ -85,6 +85,29 @@ section {
 	padding: 8px 30px 8px 30px;
 }
 
+/* Slide-1 */
+
+hr {
+	border: 1px solid #C0C0C0;
+	float: right;
+	margin-top: -50px;
+}
+
+.line-1 {
+	width: 36%;
+	margin-right: -43px;
+}
+
+.line-2 {
+	width: 47%;
+	margin-right: -90px;
+}
+
+.blue-progress {
+	border: 1px solid #009BFF;
+}
+
+
 /* Slide-2 */
 
 .curly-image {
@@ -96,8 +119,13 @@ section {
 
 /* Slide-3 */
 
+.parallax-window {
+    min-height: 300px;
+    background: transparent;
+}
+
 .bcg-1 {
-	background: url("../assets/bwimage.png");
+	background: url("../assets/bwimage.png") 50% 0 fixed;
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -107,7 +135,7 @@ section {
 .banner-content-1 {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	color: white;
+	color: #FFFFFF;
 }
 
 .banner-content-1 .no-display {
@@ -117,7 +145,7 @@ section {
 .btn {
 	border: 2px solid #00bd6f;
 	font-family: Ubuntu; 
-	color: white;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	display: block;
 	margin-left: auto;
@@ -144,7 +172,7 @@ section {
 /* Slide-3-Toggle */
 
 .banner1-toggle {
-	background: url("../assets/bwimage3.png");
+	background: url("../assets/bwimage3.png") 50% 0 fixed;
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -154,7 +182,7 @@ section {
 /* Slide-4 */
 
 .blue-text {
-	color: #009bff;
+	color: #009BFF;
 	font-weight: 600;
 	margin-top: 20px;
 	margin-bottom: -10px;
@@ -163,9 +191,9 @@ section {
 /* Slide-5 */
 
 .bcg-2 {
-	background: url("../assets/bwimage2.png");
+	background: url("../assets/bwimage2.png") 50% 0 fixed;
 	height: 400px;
-	color: white;
+	color: #FFFFFF;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
@@ -181,7 +209,7 @@ button {
 	display: inline-block;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
-	border: 2px solid white;
+	border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	width: 230px;
 	background-color: transparent;
@@ -218,6 +246,10 @@ button {
 	.content-box {
 		display: block;
 		margin-top: 40px;
+	}
+
+	hr {
+		display: none;
 	}
 
 	/* Slide-2 */
