@@ -3,7 +3,7 @@
 	max-width: 100%;
 }
 
-/* Typography */ 
+/* Typography */
 
 h1,h2,h3,h4,h5,p {
 	font-family: Ubuntu, sans-serif;
@@ -107,7 +107,6 @@ hr {
 	border: 1px solid #009BFF;
 }
 
-
 /* Slide-2 */
 
 .curly-image {
@@ -119,17 +118,10 @@ hr {
 
 /* Slide-3 */
 
-.parallax-window {
-    min-height: 300px;
-    background: transparent;
-}
-
 .bcg-1 {
 	background: url("../assets/bwimage.png") 50% 0 fixed;
 	height: 300px;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
 }
 
 .banner-content-1 {
@@ -143,8 +135,8 @@ hr {
 }
 
 .btn {
-	border: 2px solid #00bd6f;
-	font-family: Ubuntu; 
+	border: 2px solid #00BD6F;
+	font-family: Ubuntu;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	display: block;
@@ -162,7 +154,7 @@ hr {
 }
 
 .active {
-	background-color: #00bd6f;
+	background-color: #00BD6F;
 }
 
 .time, .money {
@@ -175,8 +167,6 @@ hr {
 	background: url("../assets/bwimage3.png") 50% 0 fixed;
 	height: 300px;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
 }
 
 /* Slide-4 */
@@ -216,7 +206,7 @@ button {
 }
 
 
-/* Media Tags */
+/*** Media Tags ***/
 
 @media screen and (max-width: 478px) {
 	h1 {
@@ -228,7 +218,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1450px) {
 	.bcg-1 {
 		background-size: cover;
 	}
@@ -260,14 +250,6 @@ button {
 
 	/* Slide-3 */
 
-	.bcg-1 {
-		background-size: cover;
-	}
-
-	.banner1-toggle {
-		background-size: cover;
-	}
-
 	.banner-content-1 {
 		padding-top: 35px;
 	}
@@ -296,7 +278,6 @@ button {
 	/* Slide-5 */
 
 	.bcg-2 {
-		background-size: cover;
 		min-height: 650px;
 		padding-bottom: 20px;
 	}
