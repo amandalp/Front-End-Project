@@ -23,7 +23,9 @@ $(document).ready(function(){
   			$this.css('background-position', 'center ' + yBgPosition + 'px');
 
         // Progress Bar Blue Line
-	      $('.line-1').addClass('blue-progress');
+        var slidePosition = $('#slide-1').position();
+	      // $('.line-1').addClass('blue-progress');
+          
 	    });
 	  });
 	}

@@ -218,7 +218,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (min-width: 870px) {
 	.bcg-1 {
 		background-size: cover;
 	}
@@ -250,6 +250,14 @@ button {
 
 	/* Slide-3 */
 
+	.bcg-1 {
+		background-size: cover;
+	}
+
+	.banner1-toggle {
+		background-size: cover;
+	}
+
 	.banner-content-1 {
 		padding-top: 35px;
 	}
@@ -280,6 +288,7 @@ button {
 	.bcg-2 {
 		min-height: 650px;
 		padding-bottom: 20px;
+		background-size: cover;
 	}
 
 	.banner-content-2 h3 {
